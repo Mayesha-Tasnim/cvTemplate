@@ -1,0 +1,281 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+ul,
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+li {
+  color: #313131;
+}
+.mt-10 {
+  margin-top: 10px;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+.mb-10 {
+  margin-bottom: 10px;
+}
+.mb-20 {
+  margin-bottom: 20px;
+}
+.outer-template {
+  width: 90%;
+  padding: 40px 0px;
+  margin: 40px auto;
+  background-color: #cca700;
+}
+.template {
+  width: 80%;
+  height: fit-content;
+  background-color: #ffffff;
+  margin: 0 auto;
+}
+
+.template-body {
+  display: flex;
+  justify-content: space-between;
+}
+/***************left part styling start************************************/
+.left-container {
+  width: 45%;
+}
+.l-sec {
+  margin: 60px 0px;
+}
+.l-sec h3 {
+  margin: 10px 0px;
+}
+
+.img-container {
+  overflow: hidden;
+  height: 400px;
+  width: 60%;
+  background-color: #ffd739;
+  border: 30px solid #ffff;
+  border-radius: 0px 0px 200px 200px;
+  position: relative;
+  top: 0;
+  left: 55%;
+  transform: translateX(-58%);
+  border-top: none;
+}
+img {
+  object-fit: scale-down;
+}
+
+.left-content {
+  width: 100%;
+  background-color: #f6f6f6;
+  padding: 40px 10px 90px;
+  text-align: justify;
+  padding-left: 120px;
+  margin-top: -50px;
+}
+.left-content p {
+  text-align: justify;
+  font-size: 14px;
+}
+.contact-item {
+  width: 70%;
+}
+
+.contact-item li {
+  font-size: 14px;
+  font-weight: 300;
+}
+.contact-item li i {
+  font-size: 10px;
+  margin-right: 10px;
+  background-color: #ffd739;
+  padding: 8px 4px;
+  border-radius: 0px 0px 10px 10px;
+}
+.contact-item li span {
+  margin-left: 10px;
+}
+.contact-item .edu h4,
+.ref h5 {
+  font-size: 14px;
+  font-weight: 600;
+}
+.edu h5,
+.ref h4 {
+  font-size: 14px;
+  font-weight: 700;
+}
+.ref,
+.edu {
+  margin: 20px 0px;
+}
+.ref {
+  position: relative;
+}
+.ref::before {
+  content: " ";
+  width: 3px;
+
+  background-color: #ffd739;
+  position: absolute;
+  top: 0;
+  left: -9px;
+  bottom: 0;
+}
+/***************left part styling end************************************/
+/***************right part styling end************************************/
+.right-container {
+  width: 50%;
+  padding-top: 40px;
+}
+.right {
+  width: 90%;
+  margin: auto;
+}
+.header1,
+.header2 {
+  letter-spacing: 2px;
+  margin: 4px 0px;
+  text-transform: uppercase;
+}
+.header1 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.header2 {
+  font-size: 37px;
+  font-weight: 700;
+}
+.r-header {
+  padding: 10px;
+}
+.r-header h3 {
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  text-transform: uppercase;
+  margin: 2px;
+}
+
+.line {
+  width: 97%;
+  height: 2px;
+  background-color: #ffd739;
+  margin: 40px 0px;
+}
+.experience h3,
+.skills h3,
+.interests h3 {
+  font-size: 21px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 10px 0px;
+}
+.experience,
+.skills,
+.interests {
+  margin: 25px 0px;
+}
+.exp h5,
+.exp h4 {
+  margin: 8px 0px;
+}
+.experience p {
+  font-size: 14px;
+  text-align: justify;
+  line-height: 23px;
+  position: relative;
+  padding: 2px;
+  margin: 10px;
+}
+.experience p::before {
+  content: "";
+  width: 3px;
+  background-color: #ffd739;
+  position: absolute;
+  top: 0;
+  left: -10px;
+  bottom: 0;
+}
+.exp1 h5,
+.exp2 h5 {
+  font-size: 14px;
+  font-weight: 400;
+}
+.exp1 h4,
+.exp2 h4 {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.exp1 h4.comp-name,
+.exp2 h4.comp-name {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.exp {
+  margin: 34px 0px;
+}
+.skill-items {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.skill-items li,
+.interest-items li {
+  font-size: 14px;
+}
+.skill-items li {
+  margin: 4px 0px;
+  width: 30%;
+}
+.interest-items li {
+  margin-right: 30px;
+  position: relative;
+}
+.interest-items li::before {
+  content: "";
+  height: 10px;
+  width: 5px;
+  border-radius: 20px;
+  background-color: #ffd739;
+
+  position: absolute;
+  top: 61%;
+  transform: translateY(-50%);
+  left: -10px;
+}
+.interest-items {
+  display: flex;
+}
+.r-sec {
+  margin: 100px 0px;
+}
+.r-sec h3 {
+  margin-bottom: 22px;
+}
+.progress span {
+  background-color: #ffd739;
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+}
+/***************right part styling end************************************/
